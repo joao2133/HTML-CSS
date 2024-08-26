@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.705);
+        }
+                      /*
+                      
+                      como é a ordem do box shadow?
+                      (X offset) (Y offset) (Blur) (Spread)
+                      
+                      */
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.705);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {    /*hover é quando você passa o mouse em cima*/
+            text-decoration: underline;
+            color: blue;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.438);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px; 
+            /*
+            A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas.
+            */
+        }
+        
+        article > aside {   
+            
+            /*<aside> representa uma seção de uma página que consiste de conteúdo que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo.*/
+
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer { 
+            /*footer marca a área inferior, normalmente conhecida como rodapé, do conteúdo geral do documento ou do conteúdo de uma seção específica a qual ele está subordinado.*/
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <!--  <header> representa um grupo de suporte introdutório ou navegacional.  -->
+
+        <h1>Meu site</h1>
+        <nav>    <!--nav = navegação-->
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+
+                <!--  <article> representa um conteúdo independente e autocontido num documento, página, aplicação ou site.  -->
+
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis similique nam dolorem suscipit eveniet at dolores modi fuga. Libero distinctio doloremque aperiam recusandae laborum incidunt, voluptatum odio deleniti? Tenetur, porro.</p>
+                <aside>
+
+                    <!--  <aside> representa uma seção de uma página que consiste de conteúdo que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo.  -->
+
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+
+        <!--footer marca a área inferior, normalmente conhecida como rodapé, do conteúdo geral do documento ou do conteúdo de uma seção específica a qual ele está subordinado.-->
+
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>

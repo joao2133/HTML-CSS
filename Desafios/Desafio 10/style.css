@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fonteguanabara';
+    src: url(fontes/idroid.otf);
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(174, 235, 174);
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(180deg, rgb(96, 221, 96), rgba(0, 0, 0, 0.801));
+    padding: 10px;
+    margin: 0px 0px -19px 0px;
+    text-shadow: 2px 2px 0px black;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    color: white;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-family: 'fonteguanabara';
+    text-indent: 10px;
+    color: rgb(1, 80, 1);
+    border-color: red;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: 'fonteguanabara';
+    text-indent: 10px;
+    color: rgb(1, 80, 1);
+    background-color: rgba(144, 238, 144, 0.158);
+}
+
+h4{
+    background-color: #2FA866;
+    color: white;
+    margin: 1px;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 160px 50px 160px;
+    box-shadow: 0px 0px 10px 1px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.relevo{
+    background-color: rgba(152, 236, 152, 0.466);
+    margin: 0px 15px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.relevo > p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#rodape {
+    text-align: center;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
