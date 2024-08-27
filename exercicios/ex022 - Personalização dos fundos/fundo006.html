@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;*/
+                
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover
+            /*o comando acima substitui todos os comandos abaixo*/
+            /*o size não esta funcionando bem então tem que colocar ele separado, porem o resto funciona*/
+
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
@@ -14,10 +25,13 @@
             background-size: cover;
             /*contain faz com que a imagem seja 100% exibida*/
             /*o cover vai cobrir a tela inteira mesmo que tenha que cortar a imagem*/
+
+            background-attachment: fixed;
+            /*faz com que quando vc dê o scroll, o background(body) fique fixo e role apenas o conteudo(main)*/
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +42,12 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt itaque maiores vero consequuntur, pariatur velit eum tempora necessitatibus, dolor, accusantium enim odio? Quas in, dolorum laborum cumque a alias? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, animi, tempore dolor, sit eius consectetur dolorum delectus labore magni inventore exercitationem eos eaque molestiae totam cum! Fugit aspernatur natus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate, ea excepturi odit amet quo ipsa consequatur suscipit quia obcaecati voluptates omnis iste optio tempore, architecto dolores impedit neque quam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt itaque maiores vero consequuntur, pariatur velit eum tempora necessitatibus, dolor, accusantium enim odio? Quas in, dolorum laborum cumque a alias? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, animi, tempore dolor, sit eius consectetur dolorum delectus labore magni inventore exercitationem eos eaque molestiae totam cum! Fugit aspernatur natus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate, ea excepturi odit amet quo ipsa consequatur suscipit quia obcaecati voluptates omnis iste optio tempore, architecto dolores impedit neque quam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt itaque maiores vero consequuntur, pariatur velit eum tempora necessitatibus, dolor, accusantium enim odio? Quas in, dolorum laborum cumque a alias? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, animi, tempore dolor, sit eius consectetur dolorum delectus labore magni inventore exercitationem eos eaque molestiae totam cum! Fugit aspernatur natus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate, ea excepturi odit amet quo ipsa consequatur suscipit quia obcaecati voluptates omnis iste optio tempore, architecto dolores impedit neque quam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt itaque maiores vero consequuntur, pariatur velit eum tempora necessitatibus, dolor, accusantium enim odio? Quas in, dolorum laborum cumque a alias? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, animi, tempore dolor, sit eius consectetur dolorum delectus labore magni inventore exercitationem eos eaque molestiae totam cum! Fugit aspernatur natus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate, ea excepturi odit amet quo ipsa consequatur suscipit quia obcaecati voluptates omnis iste optio tempore, architecto dolores impedit neque quam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt itaque maiores vero consequuntur, pariatur velit eum tempora necessitatibus, dolor, accusantium enim odio? Quas in, dolorum laborum cumque a alias? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, animi, tempore dolor, sit eius consectetur dolorum delectus labore magni inventore exercitationem eos eaque molestiae totam cum! Fugit aspernatur natus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate, ea excepturi odit amet quo ipsa consequatur suscipit quia obcaecati voluptates omnis iste optio tempore, architecto dolores impedit neque quam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt itaque maiores vero consequuntur, pariatur velit eum tempora necessitatibus, dolor, accusantium enim odio? Quas in, dolorum laborum cumque a alias? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, animi, tempore dolor, sit eius consectetur dolorum delectus labore magni inventore exercitationem eos eaque molestiae totam cum! Fugit aspernatur natus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate, ea excepturi odit amet quo ipsa consequatur suscipit quia obcaecati voluptates omnis iste optio tempore, architecto dolores impedit neque quam.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt itaque maiores vero consequuntur, pariatur velit eum tempora necessitatibus, dolor, accusantium enim odio? Quas in, dolorum laborum cumque a alias? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, animi, tempore dolor, sit eius consectetur dolorum delectus labore magni inventore exercitationem eos eaque molestiae totam cum! Fugit aspernatur natus molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate, ea excepturi odit amet quo ipsa consequatur suscipit quia obcaecati voluptates omnis iste optio tempore, architecto dolores impedit neque quam.</p>
     </main>
 </body>
