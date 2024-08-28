@@ -5,21 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 11</title>
     <style>
-        #fora{
-            background-color: black;
-            background-image: url(Imagens/espaco.jpg);
+        *{
+            margin: -1px;
         }
 
-        #dentro{
+        #container{
+            background-color: black;
+            background-image: url(Imagens/espaco.jpg);
+            background-size: cover;
 
+            position: relative;
+            height: 99vh;
+
+        }
+
+        #conteudo{
+            background-image: url(Imagens/astronauta.png);
+
+            position: absolute;
+            height: 500px;
+            width: 500px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <div id="fora">
-        <div id="dentro">
-
-        </div>
+    <div id="container">
+        <img src="Imagens/astronauta.png" alt="astronauta" id="conteudo">
     </div>
 </body>
 </html>
