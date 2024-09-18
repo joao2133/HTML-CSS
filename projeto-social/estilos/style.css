@@ -41,3 +41,22 @@ iframe#tela {
     width: 269px;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%; /*deixar os botoes redondos*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+    box-sizing: border-box; /*comando para a borda fazer parte do objeto, assim quando o hover é ativo o botão não se mex   e*/
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-1px, -1px);
+    transition: transform 0.2s, border 1s; /*Comando de transição*/
+}
