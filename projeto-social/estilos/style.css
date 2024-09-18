@@ -23,7 +23,7 @@ main {
     height: 100vh;
 }
 
-    section#telefone {
+    section#telefone { /*Comando para centralizar a div*/
         position: absolute;
         top: 50%;
         left: 50%;
@@ -34,7 +34,7 @@ main {
         width: 311px;
     }
 
-iframe#tela {
+iframe#tela { /*Encaixando o a tela dentro do celular*/
     position: relative;
     top: 80px;
     left: 22px;
@@ -42,11 +42,11 @@ iframe#tela {
     height: 471px;
 }
 
-section#redes-sociais {
+section#redes-sociais { /*Alinhando os botões a direita*/
     text-align: right;
 }
 
-section#redes-sociais img {
+section#redes-sociais img { /*Configurações dos botões*/
     width: 50px;
     height: 50px;
     margin: 5px;
@@ -55,7 +55,7 @@ section#redes-sociais img {
     box-sizing: border-box; /*comando para a borda fazer parte do objeto, assim quando o hover é ativo o botão não se mex   e*/
 }
 
-section#redes-sociais img:hover {
+section#redes-sociais img:hover { /*Config de quando colocar o mouse em cima*/
     border: 2px solid white;
     transform: translate(-1px, -1px);
     transition: transform 0.2s, border 1s; /*Comando de transição*/
