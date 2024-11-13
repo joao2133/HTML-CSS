@@ -1,6 +1,6 @@
 Acesse os exercícios de HTML e CSS
 
-<br>  <a href="">ex001 - Ola mundo</a>
+  <a href="">ex001 - Ola mundo</a> <br>
 <br>  <a href="">ex002 - Parágrafos e quebras de linha</a>  
 <br>  <a href="">ex003 - Testando carga de imagens</a>      
 <br>  <a href="">ex004 - Teste favicon</a>                  
