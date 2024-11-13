@@ -5,7 +5,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 -Acesse-
 
-Desafios - https://github.com/joao2133/HTML-CSS/blob/main/Desafios/README.md
-Exercícios - 
-projeto-login - 
-projeto-social - 
+<br>  Desafios - https://github.com/joao2133/HTML-CSS/blob/main/Desafios/README.md
+<br>  Exercícios - 
+<br>  projeto-login - 
+<br>  projeto-social - 
