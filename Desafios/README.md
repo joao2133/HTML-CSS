@@ -12,4 +12,4 @@ Estes são os desafios em HTML e CSS que fiz <br>
 <a href="https://joao2133.github.io/HTML-CSS/Desafios/Desafio%2010R/index.html">Desafio 10R</a> <br>
 <a href="https://joao2133.github.io/HTML-CSS/Desafios/Desafio%2011/index.html">Desafio 11</a>   <br>
 <a href="https://joao2133.github.io/HTML-CSS/Desafios/Desafio%2012/index.html">Desafio 12</a>   <br>
-<a href="https://joao2133.github.io/HTML-CSS/Desafios/Desafio%2013/index.html">Desafio 13</a>   <br>
+<a href="https://github.com/joao2133/HTML-CSS/tree/main/Desafios/Desafio%2013">Desafio 13</a>   <br>
