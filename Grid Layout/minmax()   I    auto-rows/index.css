@@ -1,0 +1,8 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /*grid-template-rows: repeat(2, 100px);   deixei essa linha de comando comentada, pois com o comando a baixo, podemos excluir esta linha de comando */
+    grid-auto-rows: 100px; /*deixa definido um valor para row nao criadas*/
+}
+
